@@ -797,11 +797,6 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-\[\#FFDA1A\] {
   --tw-text-opacity: 1;
   color: rgb(255 218 26 / var(--tw-text-opacity));
@@ -866,7 +861,7 @@ html {
     background-color: #000000;
     z-index: 10;
     position: fixed;
-    right: 0%;
+    right: 5%;
     top: 5%;
   }
 
@@ -976,11 +971,6 @@ html {
 
   .md\:text-\[21px\] {
     font-size: 21px;
-  }
-
-  .md\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
