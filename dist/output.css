@@ -565,6 +565,10 @@ html {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -1013,6 +1017,11 @@ html {
          column-gap: 126px;
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1030,6 +1039,10 @@ html {
 @media (min-width: 1280px) {
   .xl\:gap-80 {
     gap: 20rem;
+  }
+
+  .xl\:gap-4 {
+    gap: 1rem;
   }
 
   .xl\:px-\[191px\] {
